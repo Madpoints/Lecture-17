@@ -1,0 +1,37 @@
+[
+	{
+		"_id": ObjectId("23984623945237468047"),
+		"Title": "My first post",
+		"Content": "Some content",
+		"Comments":[
+			{
+				"_id": 1,
+				"Content": "Commenting on first post"
+			}
+		],
+		"Author": {
+			"ID": 1,
+			"DisplayName": "John F."
+		}
+	},  
+	{
+		"_id": 2,
+		"Title": "My second post",
+		"Content": "Some content",
+		"Comments": [
+			{
+				"_id": 2,
+				"Content": "Commenting on second post"
+			},
+			{
+				"_id": 3,
+				"Content": "Also commenting on second post"
+			}
+		]
+	},
+	{
+		"_id": 3,
+		"Title": "My third post",
+		"Content": "Some content"
+	}
+]
